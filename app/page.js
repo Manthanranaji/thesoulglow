@@ -125,7 +125,7 @@ export default function Home(){
       </div>
       </section>
       
-      <section className="px-6 min-h-screen w-full flex flex-col gap-4 md:px-16 md:gap-8 -mt-72">
+      <section className="px-6 min-h-screen w-full flex flex-col gap-4 md:px-16 md:gap-8 -mt-56">
           <span ref={ref} className="opacity-0 font-dm text-xs text-[#FFFFFF]/60 md:text-lg tracking-widest">&mdash; About us</span>
           <h4 ref={ref1} className="opacity-0 font-cormorant text-4xl md:text-6xl text-[#3d2c2c]/70">Our Story</h4>
           <p ref={ref2} className="opacity-0 font-dm font-light text-[#7a5c58] tracking-wide leading-24">
@@ -139,7 +139,7 @@ export default function Home(){
       <section className="px-6 min-h-screen w-full flex flex-col gap-4 md:px-16 md:gap-8 -mt-80">
           <span ref={ref3} className="opacity-0 font-dm text-xs text-[#FFFFFF]/60 md:text-lg tracking-widest">&mdash; Contact</span>
           <h5 ref={ref4} className="opacity-0 font-cormorant text-4xl text-[#3d2c2c]/70 md:text-6xl">Get in Touch</h5>
-          <p ref={ref5} className="opacity-0 font-dm font-light text-[#7a5c58] tracking-widest leading-16">
+          <p ref={ref5} className="opacity-0 font-dm font-light text-[#7a5c58] tracking-wide leading-16">
             Have a question or want to place a custom order? We'd love to hear from you.            
           </p>
 
