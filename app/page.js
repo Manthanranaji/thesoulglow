@@ -125,10 +125,10 @@ export default function Home(){
       </div>
       </section>
       
-      <section className="px-6 min-h-screen w-full flex flex-col gap-4 md:px-16 md:gap-8 -mt-16">
-          <span ref={ref} className="opacity-0 font-dm text-xs text-[#FFFFFF] md:text-lg tracking-widest">&mdash; About us</span>
+      <section className="px-6 min-h-screen w-full flex flex-col gap-4 md:px-16 md:gap-8 -mt-72">
+          <span ref={ref} className="opacity-0 font-dm text-xs text-[#FFFFFF]/60 md:text-lg tracking-widest">&mdash; About us</span>
           <h4 ref={ref1} className="opacity-0 font-cormorant text-4xl md:text-6xl text-[#3d2c2c]/70">Our Story</h4>
-          <p ref={ref2} className="opacity-0 font-dm text-[#7a5c58] tracking-wide leading-24">
+          <p ref={ref2} className="opacity-0 font-dm font-light text-[#7a5c58] tracking-wide leading-24">
             The soul glow was born from a simple belief &mdash; that a single flame can change the feeling of a room.
             We craft each candle by hand, using only natural wax and carefully chosen scents, because we believe what you bring into your
             space should be as intentional as how you live in it.
@@ -137,9 +137,9 @@ export default function Home(){
       </section>
 
       <section className="px-6 min-h-screen w-full flex flex-col gap-4 md:px-16 md:gap-8 -mt-80">
-          <span ref={ref3} className="opacity-0 font-dm text-xs text-[#FFFFFF] md:text-lg tracking-widest">&mdash; Contact</span>
+          <span ref={ref3} className="opacity-0 font-dm text-xs text-[#FFFFFF]/60 md:text-lg tracking-widest">&mdash; Contact</span>
           <h5 ref={ref4} className="opacity-0 font-cormorant text-4xl text-[#3d2c2c]/70 md:text-6xl">Get in Touch</h5>
-          <p ref={ref5} className="opacity-0 font-dm text-[#7a5c58] tracking-widest leading-16">
+          <p ref={ref5} className="opacity-0 font-dm font-light text-[#7a5c58] tracking-widest leading-16">
             Have a question or want to place a custom order? We'd love to hear from you.            
           </p>
 
